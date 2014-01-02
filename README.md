@@ -162,7 +162,7 @@ Note: $endpoint and $parameters should be configured per the API documentation (
 	$record_id = 'ef7741d7-efed-4deb-8b67-c0ffa678f51d';
 	$field = 'filename';
 
-	$sugar->delete('Notes/' . $record_id . '/files/' . $field')
+	$sugar->delete('Notes/' . $record_id . '/files/' . $field');
 
 	
 5. To Do
