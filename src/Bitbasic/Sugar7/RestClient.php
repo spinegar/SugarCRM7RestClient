@@ -1,4 +1,4 @@
-<?php namespace Spinegar\Sugar7Wrapper;
+<?php namespace Bitbasic\Sugar7;
 
 use Guzzle\Common\Event;
 use Guzzle\Http\Client;
@@ -14,7 +14,7 @@ use Guzzle\Http\Query;
  * @link    https://github.com/spinegar/sugar7wrapper
  */
 
-class Rest {
+class RestClient {
 
   /**
   * Variable: $username

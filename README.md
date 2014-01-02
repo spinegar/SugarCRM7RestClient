@@ -26,7 +26,7 @@ Edit composer.json
 
 	{
 		"require": {
-			"spinegar/sugar7wrapper": "development"
+			"bitbasic/sugar7restclient": "dev-master"
 		},
 		"minimum-stability": "dev"
 	}
@@ -42,7 +42,7 @@ To use this API follow these steps.
 
 1. Instantiate
 
-		$sugar = new \Spinegar\Sugar7Wrapper\Rest();
+		$sugar = new \Bitbasic\Sugar7\RestClient();
 	
 
 2. Set the API URL and credentials for the API user.
@@ -64,7 +64,7 @@ Note: $endpoint and $parameters should be configured per the API documentation (
 ---------------
 
 	/* Instantiate and authenticate */
-	$sugar = new \Spinegar\Sugar7Wrapper\Rest();
+	$sugar = new \Bitbasic\Sugar7\RestClient();
 
 	$sugar->setUrl('https://sugar/rest/v10/')
 		->setUsername('restUser')
