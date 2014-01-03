@@ -5,13 +5,13 @@ use Guzzle\Http\Client;
 use Guzzle\Http\Query;
 
 /**
- * SugarCRM 7 REST API Class
+ * SugarCRM 7 Rest Client
  *
- * @package   Sugar7Wrapper
+ * @package   SugarCRM 7 Rest Client
  * @category  Libraries
  * @author  Sean Pinegar
  * @license MIT License
- * @link    https://github.com/spinegar/sugar7wrapper
+ * @link    https://github.com/Bitbasic/SugarCRM7RestClient
  */
 
 class RestClient {
